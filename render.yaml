@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: frances
+    env: ruby
+    buildCommand: "bundle install && rake assets:precompile"
+    startCommand: "rails server -e production"
+    plan: free
