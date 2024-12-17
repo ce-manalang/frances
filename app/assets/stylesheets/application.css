@@ -13,3 +13,239 @@
  *= require_tree .
  *= require_self
  */
+
+ /* Shared
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.button {
+  border-radius: 100px;
+}
+
+/* Sections
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.section {
+  padding: 8rem 0 7rem;
+  text-align: center;
+}
+.section-heading {
+  margin: 2rem 0;
+}
+.section-description {
+  margin-bottom: 1.2rem;
+}
+
+/* Hero
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.phones {
+  position: relative;
+}
+.phone {
+  position: relative;
+  max-width: 80%;
+  margin: 3rem auto -12rem;
+  background: #fff;
+  right: 0rem;
+}
+.phone + .phone {
+  display: none;
+}
+
+/* Values
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.values {
+  /*background-image: url('../images/values-bg.jpg');*/
+  /*background-size: cover;*/
+  /*color: #fff;*/
+  border-top: 1px solid #ddd;
+  padding-bottom: 5rem;
+}
+.values .section-description {
+  margin-bottom: 4rem;
+}
+.values .row {
+  margin-bottom: 3rem;
+}
+.values .row img {
+  border: 1px solid #ddd;
+}
+.value-multiplier {
+  margin-bottom: .5rem;
+  color: #11DFC7;
+}
+.value-heading {
+  margin-bottom: .3rem;
+}
+.value-description {
+  opacity: .8;
+  font-weight: 300;
+}
+
+/* Help
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.get-help {
+  /*border-bottom: 1px solid #ddd;*/
+  padding-top: 5rem !important;
+  padding-bottom: 3rem !important;
+  border-top: 1px solid #ddd;
+}
+
+/* Categories
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.categories {
+  /*background-image: url('../images/values-bg.jpg');*/
+  /*background-size: cover;*/
+  /*color: #fff;*/
+  padding-top: 0 !important;
+}
+
+.categories .category {
+  text-align: left;
+  padding-top: 10rem;
+}
+
+.categories .section-description {
+  margin-bottom: 4rem;
+}
+
+.top {
+  padding-top: 5rem !important;
+  padding-bottom: 0 !important;
+}
+
+.top .button {
+  margin-right: 5rem;
+}
+
+/* Bigger than 550 */
+@media (min-width: 550px) {
+  .section {
+    padding: 8rem 0 11rem;
+  }
+  .hero {
+    padding-bottom: 12rem;
+    text-align: left;
+    height: 165px;
+  }
+  .phone {
+    position: absolute;
+    top: -7rem;
+    /*right: 3rem;*/
+    max-height: 362px;
+    z-index: 3;
+  }
+  .phone + .phone {
+    top: -6rem;
+    display: block;
+    max-width: 73.8%;
+    right: 0;
+    z-index: 2;
+    max-height: 338px;
+  }
+  .hero-heading {
+    font-size: 3.4rem;
+  }
+}
+
+/* Bigger than 750 */
+@media (min-width: 750px) {
+  .hero {
+    height: 190px;
+    padding: 14rem 0 14rem;
+  }
+  .hero-heading {
+    font-size: 3.6rem;
+  }
+  .section {
+    padding: 12rem 0 15rem;
+  }
+  .section-description {
+    max-width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .phone {
+    top: -14rem;
+    /*right: 5rem;*/
+    max-height: 510px;
+  }
+  .phone + .phone {
+    top: -12rem;
+    max-height: 472px;
+  }
+  .categories {
+    padding: 15rem 0 8rem;
+  }
+}
+
+/* Bigger than 1000 */
+@media (min-width: 1000px) {
+  .section {
+    padding: 25rem 0 19rem;
+  }
+  .hero {
+    padding: 14rem 0;
+  }
+  .hero-heading {
+    font-size: 4.0rem;
+  }
+  .phone {
+    top: -16rem;
+    max-height: 615px;
+  }
+  .phone + .phone {
+    top: -14rem;
+    max-height: 570px;
+  }
+}
+
+.docs-bg-instagram {
+  background-image: url("https://s3.us-east-2.amazonaws.com/cemanalang.com/images/instagram.svg");
+}
+.docs-bg-twitter {
+  background-image: url("https://s3.us-east-2.amazonaws.com/cemanalang.com/images/twitter.svg");
+}
+.docs-bg-mastodon {
+  background-image: url("https://s3.us-east-2.amazonaws.com/cemanalang.com/images/mastodon.svg");
+}
+.docs-bg-facebook {
+  background-image: url("https://s3.us-east-2.amazonaws.com/cemanalang.com/images/facebook.svg");
+}
+.docs-bg-reddit {
+  background-image: url("https://s3.us-east-2.amazonaws.com/cemanalang.com/images/reddit.svg");
+}
+.docs-bg-medium {
+  background-image: url("https://s3.us-east-2.amazonaws.com/cemanalang.com/images/medium.svg");
+}
+.docs-bg-github {
+  background-image: url("https://s3.us-east-2.amazonaws.com/cemanalang.com/images/github.svg");
+}
+.docs-bg-dribbble {
+  background-image: url("https://s3.us-east-2.amazonaws.com/cemanalang.com/images/dribbble.svg");
+}
+.docs-bg-linkedin {
+  background-image: url("https://s3.us-east-2.amazonaws.com/cemanalang.com/images/linkedin.svg");
+}
+.docs-bg-devto {
+  background-image: url("https://s3.us-east-2.amazonaws.com/cemanalang.com/images/devto.svg");
+}
+.docs-bg-goodreads {
+  background-image: url("https://s3.us-east-2.amazonaws.com/cemanalang.com/images/goodreads.svg");
+}
+.docs-bg-storygraph {
+  background-image: url("https://s3.us-east-2.amazonaws.com/cemanalang.com/images/storygraph.svg");
+}
+.docs-bg-tiktok {
+  background-image: url("https://s3.us-east-2.amazonaws.com/cemanalang.com/images/tiktok.svg");
+}
+.docs-button-share {
+  background-size: 80%;
+  background-position: center;
+  background-repeat: no-repeat;
+  text-indent: -9999px;
+}
+.docs-button {
+  height: 36px;
+  padding: 0 18px;
+  border: none;
+  margin-bottom: 0;
+  margin-right: 1rem;
+}
