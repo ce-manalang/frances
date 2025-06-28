@@ -16,7 +16,11 @@ export default function Home() {
         <div className="container">
           <div className="row">
             <div className="one-half column">
-              <h1 className="hero-heading">texts and images</h1>
+              <h1 className="hero-heading">
+								texts, images,
+								<br/>
+								and software engineering
+							</h1>
               <p>by ce manalang</p>
               <a className="button" href="#readmore">
                 read more
