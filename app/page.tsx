@@ -247,7 +247,7 @@ export default function Home() {
               <h4 className="section-heading">about</h4>
               <p>ce manalang is a content &amp; web developer.</p>
               <p>
-                she grew up in bulacan with her two older siblings and their
+                she grew up in malolos with her two older siblings and their
                 collection of books. she studied information technology at
                 university of santo tomas. she drew comics on paper and
                 submitted some of them to <a
@@ -272,7 +272,7 @@ export default function Home() {
               </p>
               <p>
                 she later moved her comics to <a href="https://centimentalcomics.com" target="_blank">
-                  centimentalcomics.com</a>.
+                  centimentalcomics.com</a> and compiled in a book: love letters to ruby (2025).
               </p>
             </div>
           </div>
